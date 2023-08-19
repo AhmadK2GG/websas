@@ -1,0 +1,70 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:'Open Sans', sans-serif;
+ }
+
+ body
+  {
+    height: 100vh;
+    background-color: #000;
+    background-image: url(https://www.rxwallpaper.site/wp-content/uploads/red-and-black-dual-monitor-wallpaper-3840x1080-beautiful.png);
+    background-size: cover;
+    background-position: center;
+  }
+  .links ul{
+    list-style: none;
+  }
+  .nav_bar a{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+  }
+
+  .nav_bar a:hover{
+    color: red;
+    background-color: rgb(43, 34, 34);
+  }
+  
+  .active {
+    background-color: darkred;
+  }
+  /*header*/
+
+  header{
+    position: relative;
+    padding: 0 2rem;
+  }
+  
+  .nav_bar {
+    width: 1200px;
+    height: 100px;
+    max-width: 1200px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .nav_bar .links{
+    display: flex;
+    gap: 2rem;
+  }
+
+  .list {
+    color: white;
+    padding: 10px;
+    justify-content:space-around;
+    align-items: center;
+  }
+
+ .features{
+  list-style: none;
+  height: 750px;
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+  }
